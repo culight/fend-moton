@@ -1,0 +1,4 @@
+# 10 minutes for image assets
+<filesMatch ".(jpg|jpeg|png|gif)$">
+Header set Cache-Control "max-age=600, private"
+</filesMatch>

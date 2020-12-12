@@ -1,0 +1,63 @@
+/* # = id selector */
+/* . = class selector */
+/* h2 = tag selector */
+/* [] = attribute selector */
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400';
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+#header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 380px) {
+  #logo {
+        visibility: hidden;
+  }
+}
+
+#header-text {
+  text-align: right;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#name {
+  font-weight: lighter;
+  font-size: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#role {
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+hr {
+  background-color: rgb(125, 151, 173); /* Firefox and Opera */
+  color: rgb(125, 151, 173); /* IE7+ */
+  border-color: rgb(125, 151, 173); /* chrome and safari */
+}
+
+.main-image {
+  width: 80%;
+  display: inline-block;
+  align-content: center;
+  max-width: 837px;
+  min-width: 320px;
+}

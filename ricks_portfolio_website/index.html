@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Rick's Portfolio Website" />
+    <meta charset="utf-8" />
+    <meta name="author" content="//rickmoton" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Rick's Portfolio Website</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div id="header-content">
+        <div class="header-item">
+          <img id="logo" src="images/logo.png" alt="udacity logo" />
+        </div>
+        <div class="header-item">
+          <div id="header-text">
+            <h1 id="name">RICK MOTON</h1>
+            <p id="role">FRONT-END APPRENTICE</p>
+          </div>
+        </div>
+      </div>
+      <hr size="5"/>
+    </header>
+    <main id="portfolio">
+      <div class="main-section">
+        <picture id="main-image">
+            <source srcset="images/salad.jpg" type="image/jpeg" media="(min-width: 600px)">
+            <img src="images/salad.jpg" alt="picture of salad. yumm">
+        </picture>
+      </div>
+      <div class="featured-work-section">
+        <h2 id="featured-work-label"></h2>
+        <div class="featured-work-components">
+          <div class="featured-work-component">
+            <img id="featured-work-one" src="images/" />
+            <h1 id="featured-work-one-title"></h1>
+            <a id="featured-work-one-repo">https://github.com/udacity/Appify/</a>
+          </div>
+          <div class="featured-work-component">
+            <img id="featured-work-two" src="images/" />
+            <h1 id="featured-work-two-title"></h1>
+            <a id="featured-work-two-repo">https://github.com/udacity/Sunflower/</a>
+          </div>
+          <div class="featured-work-component">
+            <img id="featured-work-three" src="images/" />
+            <h1 id="featured-work-three-title"></h1>
+            <a id="featured-work-three-repo">https://github.com/udacity/Bokeh/</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
